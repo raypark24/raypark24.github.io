@@ -1,22 +1,23 @@
-title: Minimalistic
+title: 바꾸레이 개발블로그
 logo: /assets/img/logo.jpg
-email: person@address.com
-description: Minimalistic is a theme powered by Jekyll.
-favicon: true
+email: ray.park200200@gmail.com
+description: 알았는데 몰랐습니다-_-
+favicon: false
 color-scheme: auto
+author: ray.park200200@gmail.com
 
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jemoji
-
+  - jekyll-remote-theme
 platforms:
   - name: GitHub
     icon: <i class="fa-brands fa-github"></i>
-    link: https://github.com/vaibhavvikas
-  - name: LinkedIn
+    link: https://github.com/raypark24
+  - name:
     icon: <i class="fa-brands fa-linkedin"></i>
-    link: https://www.linkedin.com/in/vaibhavvikas
+    link: https://www.linkedin.com/
 
 navigation:
   - name: Readme
@@ -24,5 +25,7 @@ navigation:
     sublist:
       - name: Image
         link: ./index.html#small-image
-  - name: Another Page
-    link: ./another-page.html
+  - name: Swagger
+    link: ./posts/swagger
+
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
