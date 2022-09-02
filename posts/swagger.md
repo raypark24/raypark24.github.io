@@ -35,7 +35,7 @@ springdoc:
 
 ### 4. 어노테이션
 ```
-@Operation(summary = "API 설명")
+@Operation(summary = "API 설명") 어노테이션을 설명하는 부분.
 
 ```
 
