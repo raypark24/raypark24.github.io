@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Swagger UI
+title: Transactional (feat: Aop)
 date: 2022-09-01
 ---
 
-내일이 오면 모를까봐 오늘 아는 것을 정리해둔다.
+어제까진 알았었는데....
 
 스프링 트랜젝션<br/>
 을 알기 위해선, Spring Aop를 알아야 하는데.<br/>

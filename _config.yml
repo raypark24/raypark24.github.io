@@ -25,7 +25,11 @@ navigation:
     sublist:
       - name: Image
         link: ./index.html#small-image
-  - name: Swagger
+
+  - name: Swagger UI
     link: ./posts/swagger
+
+  - name: Transactional & Spring Aop
+    link: ./posts/transactional-aop
 
 remote_theme: vaibhavvikas/jekyll-theme-minimalistic
