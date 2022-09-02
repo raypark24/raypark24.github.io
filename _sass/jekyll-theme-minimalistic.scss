@@ -126,7 +126,7 @@ ul.link:last-child {
 }
 
 .wrapper {
-  width: 860px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -224,7 +224,7 @@ kbd {
 }
 
 .sidebar {
-  width: 260px;
+  width: 20%;
   float: left;
   position: fixed;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -255,7 +255,7 @@ strong {
 }
 
 section {
-  width: 550px;
+  width: 75%;
   float: right;
   padding-bottom:30px;
 }

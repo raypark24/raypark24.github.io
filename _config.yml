@@ -21,15 +21,15 @@ platforms:
 
 navigation:
   - name: Readme
-    link: ./index.html
+    link: /index.html
     sublist:
       - name: Image
-        link: ./index.html#small-image
+        link: /index.html#small-image
 
   - name: Swagger UI
-    link: ./posts/swagger
+    link: /posts/swagger
 
   - name: Transactional & Spring Aop
-    link: ./posts/transactional-aop
+    link: /posts/transactional-aop
 
 remote_theme: vaibhavvikas/jekyll-theme-minimalistic

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Transactional (feat: Aop)
+title: Transactional-aop
 date: 2022-09-01
 ---
 
-어제까진 알았었는데....
+오늘은 이 내용을 알지 못했던 어제의 내일이다.
 
 스프링 트랜젝션<br/>
 을 알기 위해선, Spring Aop를 알아야 하는데.<br/>
@@ -56,9 +56,9 @@ public class serviceA {
 
 public class serviceA$proxy18472 extends serviceA {
     test(){
-        -- beforeAspect (transactional의 경우 여기가 getTransaction()) & transaction.start() )
+        //beforeAspect (transactional의 경우 여기가 getTransaction()) & transaction.start() )
         super.test();
-        -- afterAspect (transactional의 경우 여기가 transaction.commit() )
+        //afterAspect (transactional의 경우 여기가 transaction.commit() )
     }
 }
 ```
@@ -184,7 +184,5 @@ public class SuspendService {
   *
 
 출처 : https://velog.io/@ann0905/AOP%EC%99%80-Transactional%EC%9D%98-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC
-
-
 
 [back](./)
